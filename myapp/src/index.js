@@ -4,12 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import loginpage from './components/login';
+// import ReactDOM from 'react-dom';  
+// import { Route, Link, BrowserRouter as Router } from 'react-router-dom'  
+// import Home from './Home';
+// import Macros from './Macros';
+// import Rates from './Rates';
+// import OMS from './OMS';
+// import Services from './Services';
+// import Trails from './Trails_Out';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <loginpage />
+    
   </React.StrictMode>
 );
 
